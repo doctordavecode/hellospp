@@ -16,7 +16,7 @@ question = st.text_area("")
 button = st.button("get your solution")
 
 def play_tricks(question):
-    openai.api_key="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"
+    openai.api_key="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"
     response = openai.Completion.create(
         model = "text-davinci-003",
         prompt= f"""{question}""",
