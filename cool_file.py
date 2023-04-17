@@ -10,7 +10,7 @@ import streamlit as st
 import os 
 import openai
 
-st.header("I can not catch me IT")
+st.header("Can not catch me IT")
 st.markdown("Questions?")
 question = st.text_area("")
 button = st.button("get your solution")
