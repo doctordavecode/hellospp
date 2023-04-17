@@ -15,7 +15,7 @@ st.markdown("Questions?")
 question = st.text_area("")
 button = st.button("get your solution")
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
@@ -25,7 +25,7 @@ def play_tricks(question):
         model = "text-davinci-003",
         prompt= f"""{question}""",
         temperature=0.9,
-        max_tokens=1024,
+        max_tokens=200,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0
