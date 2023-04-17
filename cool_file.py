@@ -21,7 +21,7 @@ def play_tricks(question):
         model = "text-davinci-003",
         prompt= f"""{question}""",
         temperature=0.9,
-        max_token=1024,
+        max_tokens=1024,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0
