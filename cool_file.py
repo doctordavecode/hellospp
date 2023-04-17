@@ -15,7 +15,7 @@ st.markdown("Questions?")
 question = st.text_area("")
 button = st.button("get your solution")
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
